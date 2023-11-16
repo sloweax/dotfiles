@@ -1,0 +1,13 @@
+theme = "autumn_night"
+
+[keys.normal.space.b]
+q = ":buffer-close"
+b = "goto_next_buffer"
+Q = ":buffer-close!"
+n = ":new"
+f = "buffer_picker"
+
+[editor]
+line-number = "relative"
+rulers = [80]
+cursorline = true
