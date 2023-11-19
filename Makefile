@@ -8,4 +8,7 @@ helix:
 	ln $(LNFLAGS) $(PWD)/.config/$@/config.toml $(HOME)/.config/$@/config.toml
 	ln $(LNFLAGS) $(PWD)/.config/$@/languages.toml $(HOME)/.config/$@/languages.toml
 
-.PHONY: bash_aliases helix
+gdbinit:
+	ln $(LNFLAGS) $(PWD)/.$@ $(HOME)/.$@
+
+.PHONY: bash_aliases helix gdbinit
