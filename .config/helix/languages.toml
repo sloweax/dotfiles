@@ -2,5 +2,5 @@
 name = "c"
 file-types = ["c", "h"]
 formatter = { command = "clang-format" }
-indent = { tab-width = 8, unit = " " }
+indent = { tab-width = 4, unit = " " }
 auto-format = true
